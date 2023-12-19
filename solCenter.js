@@ -183,7 +183,7 @@ function gainAutoEmc(){
 	}
 }
 
-var dyson = 0; var dysonTitaniumCost = 1; var dysonGoldCost = 1; var dysonSiliconCost = 1; var dysonMeteoriteCost = 1; var dysonIceCost = 1;
+var dyson = 1; var dysonTitaniumCost = 1; var dysonGoldCost = 1; var dysonSiliconCost = 1; var dysonMeteoriteCost = 1; var dysonIceCost = 1;
 
 const ringTitaniumCost = 1; const ringGoldCost = 1; const ringSiliconCost = 1; const ringMeteoriteCost = 1; const ringIceCost = 1; const ringSegmentCost = 1; const ringRocketFuelCost = 1;
 
