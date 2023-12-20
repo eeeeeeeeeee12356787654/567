@@ -27,7 +27,7 @@ function unlockEmcResearch(){
 }
 
 function unlockDysonResearch(){
-	if(getResource(RESOURCE.Energy) >= 100000 && getResource(RESOURCE.Plasma) >= 10000){
+	if(getResource(RESOURCE.Energy) >= 100000 && getResource(RESOURCE.Plasma) >= 1){
 		Game.resources.takeResource(RESOURCE.Energy, 1);
 		Game.resources.takeResource(RESOURCE.Plasma, 1);
 		document.getElementById("researchDyson").className = "hidden";
