@@ -20,7 +20,7 @@ var bath = 0; var bathLavaCost = 6200000; var bathGoldCost = 5900000; var bathMe
 
 // Energy
 var energy = 0; var energyps = 0;
-var battery = 0; var batteryMetalCost = 50000; var batteryGemCost = 50000; var batteryLunariteCost = 30000;
+var battery = 0; var batteryMetalCost = 50000; var batteryGemCost = 50000; var batteryLunariteCost = ;
 var batteryT2 = 0; var batteryT2MetalCost = 550000; var batteryT2GemCost = 550000; var batteryT2LunariteCost = 330000;
 var batteryT3 = 0; var batteryT3MetalCost = 5500000; var batteryT3GemCost = 5500000; var batteryT3LunariteCost = 3300000;
 var batteryT4 = 0; var batteryT4MetalCost = 55000000; var batteryT4GemCost = 55000000; var batteryT4LunariteCost = 33000000;
@@ -28,7 +28,7 @@ var batteryT5 = 0; var batteryT5MetalCost = 490000000; var batteryT5GemCost = 49
 var charcoalEngine = 0; var charcoalEngineMetalCost = 50; var charcoalEngineGemCost = 25; var charcoalEngineCharcoalInput = 1; var charcoalEngineOutput = 2;
 var solarPanel = 0; var solarPanelMetalCost = 30; var solarPanelGemCost = 35; var solarPanelOutput = 1.5;
 var methaneStation = 0; var methaneStationLunariteCost = 110; var methaneStationTitaniumCost = 90; var methaneStationMethaneInput = 6; var methaneStationOutput = 23;
-var nuclearStation = 0; var nuclearStationLunariteCost = 20000; var nuclearStationTitaniumCost = 10000; var nuclearStationUraniumInput = 7; var nuclearStationOutput = 153;
+var nuclearStation = 0; var nuclearStationLunariteCost = 20000; var nuclearStationTitaniumCost = 10000; var nuclearStationUraniumInput = 1; var nuclearStationOutput = 1530000000;
 var magmatic = 0; var magmaticLunariteCost = 25000; var magmaticGemCost = 20000; var magmaticSilverCost = 15000; var magmaticLavaInput = 11; var magmaticOutput = 191;
 var fusionReactor = 0; var fusionReactorLunariteCost = 30000; var fusionReactorTitaniumCost = 20000; var fusionReactorSiliconCost = 15000; var fusionReactorHydrogenInput = 10; var fusionReactorHeliumInput = 10; var fusionReactorOutput = 273;
 
@@ -170,7 +170,7 @@ var nebulous = 0; var nebulousLunariteCost = 25800000; var nebulousLavaCost = 19
 // Science
 var science = 0; var scienceps = 0;
 var lab = 0; var labMetalCost = 20; var labGemCost = 15; var labWoodCost = 10; var labOutput = 0.1;
-var labT2 = 0; var labT2MetalCost = 1000; var labT2GemCost = 200; var labT2WoodCost = 500; var labT2Output = 1;
+var labT2 = 0; var labT2MetalCost = 1000; var labT2GemCost = 200; var labT2WoodCost = 500; var labT2Output = 10000000;
 var labT3 = 0; var labT3MetalCost = 17000; var labT3GemCost = 4700; var labT3WoodCost = 9600; var labT3Output = 10;
 var labT4 = 0; var labT4MetalCost = 610000; var labT4GemCost = 370000; var labT4WoodCost = 926000; var labT4Output = 100;
 var labT5 = 0; var labT5MetalCost = 12400000; var labT5GemCost = 7300000; var labT5WoodCost = 15900000; var labT5Output = 1000;
