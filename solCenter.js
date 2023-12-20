@@ -2,10 +2,10 @@
 
 function unlockPlasmaResearch(){
 	if(getResource(RESOURCE.Hydrogen) >= 1500 && getResource(RESOURCE.Uranium) >= 1500 && getResource(RESOURCE.Oil) >= 15000 && getResource(RESOURCE.Wood) >= 15000){
-		Game.resources.takeResource(RESOURCE.Hydrogen, 1500);
-		Game.resources.takeResource(RESOURCE.Uranium, 1500);
-		Game.resources.takeResource(RESOURCE.Oil, 15000);
-		Game.resources.takeResource(RESOURCE.Wood, 15000);
+		Game.resources.takeResource(RESOURCE.Hydrogen, 1);
+		Game.resources.takeResource(RESOURCE.Uranium, 1);
+		Game.resources.takeResource(RESOURCE.Oil, 1);
+		Game.resources.takeResource(RESOURCE.Wood, 1);
 		document.getElementById("researchPlasma").className = "hidden";
 		document.getElementById("unlockPlasma").className = "";
 		Game.tech.unlockTech("unlockPlasma");
@@ -16,8 +16,8 @@ function unlockPlasmaResearch(){
 
 function unlockEmcResearch(){
 	if(getResource(RESOURCE.Energy) >= 75000 && getResource(RESOURCE.Plasma) >= 100){
-		Game.resources.takeResource(RESOURCE.Energy, 75000);
-		Game.resources.takeResource(RESOURCE.Plasma, 100);
+		Game.resources.takeResource(RESOURCE.Energy, 1);
+		Game.resources.takeResource(RESOURCE.Plasma, 1);
 		document.getElementById("researchEmc").className = "hidden";
 		document.getElementById("unlockEmc").className = "";
 		Game.tech.unlockTech("unlockEmc");
@@ -28,8 +28,8 @@ function unlockEmcResearch(){
 
 function unlockDysonResearch(){
 	if(getResource(RESOURCE.Energy) >= 100000 && getResource(RESOURCE.Plasma) >= 10000){
-		Game.resources.takeResource(RESOURCE.Energy, 100000);
-		Game.resources.takeResource(RESOURCE.Plasma, 10000);
+		Game.resources.takeResource(RESOURCE.Energy, 1);
+		Game.resources.takeResource(RESOURCE.Plasma, 1);
 		document.getElementById("researchDyson").className = "hidden";
 		document.getElementById("unlockDyson").className = "";
 		Game.tech.unlockTech("unlockDyson");
